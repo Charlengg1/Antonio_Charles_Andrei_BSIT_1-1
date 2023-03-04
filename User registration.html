@@ -1,0 +1,85 @@
+<!DOCTYPE html>   
+<html>
+  <body background="background.jpg"></body>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> User Registration </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color:rgb(red, green, blue);  
+    }   
+</style>   
+</head>    
+<body>    
+    <center> <h1> Registration Page </h1> </center>   
+    <form>  
+       <!--Input boxes--> <div class="container">
+        <input type="text" placeholder="Username" name="Username" required>
+        <input type="password" placeholder="password" name="password" required>   
+            <input type="text" placeholder="First name" name="First Name" required>    
+            <input type="text" placeholder="Last Name" name="Last Name" required>   <div> 
+          <input type="text" placeholder="Address" name="Address" required> <div>  <input type="text" placeholder="Contact No." name="Contact No." required> <div>
+<div>
+  <input type="radio" name="gender" checked>Male
+  <input type="radio" name="gender" checked>Female
+  <input type="radio" name="gender" checked>Rather not say
+</div>
+      <h2>Educational attainment</h2>
+        <div>
+     
+       
+  <div><input type="checkbox" checked>Elementary</input>
+    <div>
+      <div><input type="checkbox">Secondary</input></div>
+      <div><input type="checkbox">College Grad/UnderGrad</input></div>
+    </div>
+      <div>
+        <h3> Please upload a 2x2 picture here </h3>
+  <input type="file">
+</div>
+      <div>
+        <h4><strong>Birthdate</h4>
+  <div>
+  <input type="date" max="2023-02-11" min="2023-01-01" value="0000-00-00">
+</div>
+            <button type="submit">Register</button>   
+             
+        </div>   
+    </form>  
+</body>     
+</html>
